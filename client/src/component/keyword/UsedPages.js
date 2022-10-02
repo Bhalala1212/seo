@@ -30,7 +30,7 @@ const UsedPages = () => {
                                     return <li key={index}><a target="blank" href={`https://${value}`}>{value}</a></li>
                                 })
                             }
-                            <li className="sign_in__load"><Link to="/sign-in"> <span>sign in</span> to load more </Link>  </li>
+                            <li className="sign_in__load"><Link to="/sign-in"> <span>Log in</span> om meer te zien</Link>  </li>
                         </ul>
                     )
                 }
