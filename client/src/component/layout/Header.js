@@ -1,6 +1,6 @@
 import React, {useContext} from 'react'
 import Avatar from './avatar.png'
-import Logo from './logo.png'
+import Logo from './Mediya-01.png'
 import {Link} from 'react-router-dom'
 import AuthContext from '../../context/auth/AuthContext'
 const Header = () => {

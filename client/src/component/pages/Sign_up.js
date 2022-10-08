@@ -39,7 +39,7 @@ const Sign_up = props => {
                         <input onChange={handleChange} type="text" name="name" className="input__feild feild" placeholder="Full Name" />
                         <input onChange={handleChange} type="email" name="email" className="input__feild feild" placeholder="example@mail.com" />
                         <input onChange={handleChange} type="password" name="password" className="input__feild feild" placeholder="password" />
-                        <button type="submit" className="submit__feild feild">sign up</button>
+                        <button type="submit" className="submit__feild feild">sign up 123</button>
                     </form>
 
                 </div>

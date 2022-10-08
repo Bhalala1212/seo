@@ -44,7 +44,7 @@ const Sign_in = props => {
                     </div>
                 </div>
                 <div className="sign_up__link">
-                    <p>wanna join <Link to="/sign-up"><span className="link__color">sign up</span></Link> <span className="link__line"></span> </p>
+                    <p>wanna join <Link to="/sign-up"><span className="link__color">sign up 234</span></Link> <span className="link__line"></span> </p>
                 </div>
             </div>
         </div>
