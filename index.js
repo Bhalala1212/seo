@@ -24,5 +24,7 @@ app.use('/api/v1/', require('./routes/auth/register')) // registeren om meerdere
 app.use('/api/v1/', require('./routes/auth/login')) // login | user authenticatie | historie
 
 
-.listen(process.env.PORT || 5000)
-app.listen(PORT, console.log(`SERVER RUNNING AT PORT ${PORT}`))
+// .listen(process.env.PORT || 5000)
+app.listen(process.env.PORT || 3000, function(){
+  console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env);
+});
