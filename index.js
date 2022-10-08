@@ -24,5 +24,5 @@ app.use('/api/v1/', require('./routes/auth/register')) // registeren om meerdere
 app.use('/api/v1/', require('./routes/auth/login')) // login | user authenticatie | historie
 
 
-const PORT = process.env.PORT || 5002;
+.listen(process.env.PORT || 5000)
 app.listen(PORT, console.log(`SERVER RUNNING AT PORT ${PORT}`))
